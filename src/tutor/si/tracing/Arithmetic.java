@@ -1,4 +1,7 @@
 package tutor.si.tracing;
 
-public class Calculator {
+public class Arithmetic {
+
+
+
 }
