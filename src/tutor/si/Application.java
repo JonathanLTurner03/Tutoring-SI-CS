@@ -1,3 +1,4 @@
+// This class can be safely ignored as we will cover these topics utilized later.
 package tutor.si;
 
 import java.util.Scanner;
