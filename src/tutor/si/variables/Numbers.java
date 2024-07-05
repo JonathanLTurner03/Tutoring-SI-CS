@@ -108,6 +108,7 @@ public class Numbers extends Application {
     public static void main(String[] args) {
         Numbers program = new Numbers();
         program.run();
+        program.cleanup();
     }
 
 }

@@ -102,5 +102,6 @@ public class Letters extends Application {
     public static void main(String[] args) {
         Letters program = new Letters();
         program.run();
+        program.cleanup();
     }
 }
