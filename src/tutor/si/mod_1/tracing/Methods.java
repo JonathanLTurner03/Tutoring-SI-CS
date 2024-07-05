@@ -1,4 +1,4 @@
-package tutor.si.mod_1;
+package tutor.si.mod_1.tracing;
 
 import tutor.si.Application;
 
