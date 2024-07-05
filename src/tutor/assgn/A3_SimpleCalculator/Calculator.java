@@ -1,4 +1,4 @@
-package tutor.solutions.A_SimpleCalculator;
+package tutor.assgn.A3_SimpleCalculator;
 
 /*
 In this practice assignment, we will create a simple calculator that will take two numbers
@@ -14,23 +14,14 @@ These are the guided instructions for it:
 6. Utilize the getInteger() method to get the number and store it in a variable, you can name it anything.
 7. Multiply these two integers together and store the result in a new variable called result.
 8. Print out the result to the user using the print() method.
-*/
 
-/* This is the solution to the A_SimpleCalculator assignment. */
+**The solution to this assignment can be found in the solution folder.**
+ */
 
-import tutor.si.Application;
-
-public class Calculator extends Application {
+public class Calculator {
 
     public void run() {
-        print("Welcome to the Simple Calculator!"); // TODO: #2
-
-        print("Please enter the first number: "); // TODO: #3
-        int x = getInteger(); // TODO: #4
-        print("Please enter the second number: "); // TODO: #5
-        int y = getInteger(); // TODO: #6
-        int result = x * y; // TODO: #7
-        print("The result of " + x + " multiplied by " + y + " is: " + result); // TODO: #8 (only need to print result)
+        // TODO: Implement a simple calculator that can take two integers, multiply them, and print the result.
     }
 
 
@@ -38,7 +29,6 @@ public class Calculator extends Application {
     public static void main(String[] args) {
         Calculator program = new Calculator();
         program.run();
-        program.cleanup();
     }
 
 }

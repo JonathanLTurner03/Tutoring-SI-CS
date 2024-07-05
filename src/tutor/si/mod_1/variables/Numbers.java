@@ -1,4 +1,4 @@
-package tutor.si.variables;
+package tutor.si.mod_1.variables;
 
 import tutor.si.Application;
 
